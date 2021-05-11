@@ -1,0 +1,6 @@
+name: FixFallJoin
+api: [3.0.0]
+version: 1.0.0
+main: Laith98Dev\FixFallJoin\Main
+author: Laith98Dev
+description: Simple plugin for fix glitch fall join.
