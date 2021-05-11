@@ -15,7 +15,7 @@ namespace Laith98Dev\FixFallJoin;
  *		
  *	Youtube: Laith Youtuber
  *	Facebook: Laith A Al Haddad
- *	Discord: Laith.97#0695
+ *	Discord: Laith98Dev#0695
  *	Gihhub: Laith98Dev
  *
  *	This program is free software: you can redistribute it and/or modify
