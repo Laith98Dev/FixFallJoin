@@ -1,2 +1,2 @@
 # FixFallJoin
-Simple plugin for fix fall join glitch
+Simple plugin for fix glitch fall join.
