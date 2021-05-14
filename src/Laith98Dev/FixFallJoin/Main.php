@@ -39,6 +39,7 @@ use pocketmine\event\Listener;
 use pocketmine\Player;
 
 use pocketmine\event\player\PlayerJoinEvent;
+use pocketmine\event\player\PlayerPreLoginEvent;
 use pocketmine\event\player\PlayerLoginEvent;
 use pocketmine\event\player\PlayerMoveEvent;
 
@@ -74,6 +75,8 @@ class Main extends PluginBase implements Listener
 			unset($this->login[$player->getName()]);
 			$this->join[$player->getName()] = 1;
 		}
+		
+		$player->setImmobile(true);
 	}
 	
 	public function onMove(PlayerMoveEvent $event): void{
@@ -92,6 +95,7 @@ class Main extends PluginBase implements Listener
 		}
 		
 		if(isset($this->move[$player->getName()])){
+			$player->setImmobile(false);
 			unset($this->move[$player->getName()]);
 		}
 	}
