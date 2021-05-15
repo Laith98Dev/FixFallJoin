@@ -85,7 +85,7 @@ class Main extends PluginBase implements Listener
 		if(!$player instanceof Player) return;
 		
 		if(isset($this->login[$player->getName()]) || isset($this->move[$player->getName()])){
-			$event->setCancelled();
+			//$event->setCancelled();
 		}
 		
 		if(isset($this->join[$player->getName()])){
